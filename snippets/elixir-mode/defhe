@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: defhe
+# key: defhe
+# condition: t
+# --
+@impl true
+def handle_event("$1", _value, socket) do
+  $0
+  {:noreply, socket}
+end
