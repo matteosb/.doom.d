@@ -67,6 +67,8 @@
         web-mode-code-indent-offset 2
         web-mode-enable-current-element-highlight t))
 
+(after! js2-mode
+ (setq js-indent-level 2))
 (use-package! polymode
   :mode ("\\.ex\\'" . poly-elixir-web-mode)
   :config
