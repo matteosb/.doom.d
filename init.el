@@ -93,9 +93,9 @@
        ;;tty               ; improve the terminal Emacs experience
 
        :lang
-       clojure
+       (clojure +lsp +paredit)
        (elixir +lsp)
-       emacs-lisp
+       (emacs-lisp +paredit)
        (erlang +lsp)
        (haskell +lsp)
        json
